@@ -1,8 +1,8 @@
 <?php 
 include("headre.php");
 if(isset($_POST['logout'])) {
-// Perform the redirection
 session_destroy();
+// Perform the redirection
 header("Location: index.php");
 exit();
 
@@ -145,9 +145,10 @@ exit();
     <div class="row featurette d-flex justify-content-center aling-items-center">
         <div class="col-md-7 d-flex align-items-center order-md-1">
             <div>
-                <h2 class="featurette-heading fw-normal lh-1">Unlock the Power of Coding. <span class="text-body-secondary">Create, Innovate, Code!</span></h2>
-                <p class="lead">Explore the endless possibilities of coding and programming. Dive into the world of algorithms, data structures, and creative problem-solving to craft innovative solutions.</p>
-                <p class="lead">Whether you're a seasoned developer or just starting your coding journey, there's always something new to learn and discover in the dynamic field of programming.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Mastering the Art of Algorithms. <span class="text-body-secondary">Unleash Your Problem-Solving Skills!</span></h2>
+<p class="lead">Delve into the realm of algorithms, where logic meets creativity. Learn how to tackle complex problems and optimize solutions, mastering the cornerstone of computer science.</p>
+<p class="lead">Whether you're a seasoned developer or just starting your coding journey, there's always something new to learn and discover in the dynamic field of programming.</p>
+
             </div>
         </div>
         <div class="col-md-5 order-md-2">
@@ -161,9 +162,10 @@ exit();
 <div class="row featurette d-flex justify-content-center aling-items-center">
         <div class="col-md-7 d-flex align-items-center order-md-2">
             <div>
-                <h2 class="featurette-heading fw-normal lh-1">Unlock the Power of Coding. <span class="text-body-secondary">Create, Innovate, Code!</span></h2>
-                <p class="lead">Explore the endless possibilities of coding and programming. Dive into the world of algorithms, data structures, and creative problem-solving to craft innovative solutions.</p>
-                <p class="lead">Whether you're a seasoned developer or just starting your coding journey, there's always something new to learn and discover in the dynamic field of programming.</p>
+                <h2 class="featurette-heading fw-normal lh-1">Discovering the World of Data Structures. <span class="text-body-secondary">Building Blocks of Efficient Programming!</span></h2>
+<p class="lead">Explore the fascinating world of data structures, the backbone of every efficient program. From arrays to trees, understand how to organize and manipulate data for maximum efficiency.</p>
+<p class="lead">Whether you're a seasoned developer or just starting your coding journey, there's always something new to learn and discover in the dynamic field of programming.</p>
+
             </div>
         </div>
         <div class="col-md-5 order-md-1">
@@ -176,9 +178,9 @@ exit();
  <div class="row featurette d-flex justify-content-center aling-items-center">
         <div class="col-md-7 d-flex align-items-center order-md-1">
             <div>
-                <h2 class="featurette-heading fw-normal lh-1">Unlock the Power of Coding. <span class="text-body-secondary">Create, Innovate, Code!</span></h2>
-                <p class="lead">Explore the endless possibilities of coding and programming. Dive into the world of algorithms, data structures, and creative problem-solving to craft innovative solutions.</p>
-                <p class="lead">Whether you're a seasoned developer or just starting your coding journey, there's always something new to learn and discover in the dynamic field of programming.</p>
+                <h2 class="featurette-heading fw-normal lh-1">From Code to Creation. <span class="text-body-secondary">Navigating the Software Development Lifecycle!</span></h2>
+<p class="lead">Embark on a journey through the software development lifecycle, from conceptualization to deployment. Learn best practices, collaboration strategies, and the art of turning ideas into reality.</p>
+<p class="lead">Whether you're a seasoned developer or just starting your coding journey, there's always something new to learn and discover in the dynamic field of programming.</p>
             </div>
         </div>
         <div class="col-md-5 order-md-2">

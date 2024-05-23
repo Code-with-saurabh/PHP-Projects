@@ -1,5 +1,5 @@
 <?php
-// require("header.php");
+ 
 include ('headre.php');
 ?>
 
@@ -194,6 +194,6 @@ ob_end_flush();
 
 
 <?php
-// require("header.php");
+ 
 include ('footer.php');
 ?>
